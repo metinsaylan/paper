@@ -8,8 +8,9 @@
 </head>
 <body <?php body_class(); ?>>
 
-<header class="container" id="site-header">
+<div class="paper">
+<header id="site-header">
   <a href="<?php bloginfo( 'url' ) ?>"><?php bloginfo('name'); ?></a>
 </header>
 
-<div class="container">
+<div class="content-wrap">

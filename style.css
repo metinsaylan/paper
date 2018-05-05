@@ -1,4 +1,4 @@
-/* Theme Name: paper */
+/* Theme Name: MS Paper */
 /* Typography */
 body, input, td, select { font-family: sans-serif; font-size: 20px }
 h1, h2, h3, h4 { margin-top: 0 }
@@ -8,10 +8,11 @@ body{ background: #fafaf8 }
 a{ color: #00e; text-decoration: none }
 
 /* Page elements */
-.container{ max-width: 640px; margin: 0 auto 1em; -ms-word-wrap: break-word; word-wrap: break-word; }
-#site-header { padding: 10px 30px; border-bottom: 3px solid #eee }
+.paper{ background: #fff; box-shadow: rgba(0,0,0,0.4) 0 2px 6px; padding: 30px;  max-width: 640px; 
+    margin: 1em auto 4em; -ms-word-wrap: break-word; word-wrap: break-word;  }
+#site-header { padding: 10px; border-bottom: 3px solid #eee; margin-bottom: 6px }
 #site-header a{ color: #999 }
-#site-info{ padding: 50px 10px 0; text-align: center; color: #ddd }
+#site-info{ font-size: 16px; padding: 30px 10px 0; text-align: center; color: #aaa }
 .sidebar{ background: #eee; padding: 10px }
 .sidebar .widget{ margin-bottom: 10px }
 nav#nav-main { border-top: 2px solid #eee; padding: 10px; }
